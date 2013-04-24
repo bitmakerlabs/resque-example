@@ -1,0 +1,7 @@
+printing_out_hello_world:
+  every:
+    - 1s
+    - first_in: 1s
+  class: Job
+  queue: hello_world_queue
+  description: "Prints out hello world every second. Really irritating."
